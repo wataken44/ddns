@@ -1,0 +1,6 @@
+{
+  "url":[
+    "https://free.ddo.jp/dnsupdate.php?dn=<domain>&pw=<password>",
+    "https://ieserver.net/cgi-bin/dip.cgi?username=<username>&domain=<domain>&password=<password>&updatehost=1"
+  ]
+}
