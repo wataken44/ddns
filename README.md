@@ -3,18 +3,21 @@
 DDNS client
 
 ## Requirement
-* ruby
-** requires json
+
+* ruby(requires json, ruby>=1.9 is enough)
 
 ## Usage
 
-* debug
+### debug
+
     $ git clone https://github.com/wataken44/ddns.git
     $ cd ddns
     $ mv config-sample.json config.json
     $ vi config.json
     $ ruby ddns.rb -d
-* run with cron
+
+### run with cron
+
     $ crontab -e
 
     0 * * * * ruby /home/wataken44/ddns/ddns.rb
